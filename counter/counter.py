@@ -13,4 +13,4 @@ def get():
 def say(times):
     global count
 
-    print(str(count) * times)
+    return str(count) * times

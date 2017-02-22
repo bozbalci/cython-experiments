@@ -6,5 +6,5 @@ cdef public void increment():
 cdef public int get():
     return counter.get()
 
-cdef public void say(int times):
-    counter.say(times)
+cdef public char* say(int times):
+    return bytes(counter.say(times), "utf-8")

@@ -24,9 +24,7 @@ int main(int argc, char *argv[]) {
 
     int x = get();
     printf("Incremented %d times\n", x);
-
-    printf("The binary representation of the number 42 is\n");
-    say(3);
+    printf("The binary representation of the number 42 is %s.\n", say(3));
 
     Py_Finalize();
     return 0;

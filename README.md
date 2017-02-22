@@ -2,4 +2,4 @@
 
 Experimenting with Cython.
 
-* python-from-c: contains an example program that runs Python functions from C
+* counter: example program that runs Python functions from C
