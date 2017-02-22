@@ -90,4 +90,4 @@ ENV/
 .ropeproject
 
 # Cythonized .pyx->.h
-.h
+*.h
