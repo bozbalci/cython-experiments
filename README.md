@@ -2,4 +2,5 @@
 
 Experimenting with Cython.
 
-* counter: example program that runs Python functions from C
+* counter: runs Python functions from C
+* events: runs Python functions from C using an event system
