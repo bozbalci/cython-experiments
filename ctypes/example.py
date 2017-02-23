@@ -1,6 +1,6 @@
 # example.py: example usages of the integrate extension
 
-from integrate import Trapezoid #, Simpson
+from integrate import Trapezoid, Simpson
 import math
 
 def identity(x):
@@ -16,8 +16,8 @@ print("(Trapezoid) Integral of x from 0 to 2 =",
     )
 )
 
-Using lambda function
-print("(Simpson) Integral of x^2 from 0 to 1 =",
+# Using lambda function
+print("(Trapezoid) Integral of x^2 from 0 to 1 =",
     Trapezoid(
         lambda x: x ** 2,
         intervals=100,
