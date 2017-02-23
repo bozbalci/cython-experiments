@@ -11,3 +11,4 @@ Experimenting with Cython.
 
 - [x] add callback example
 - [ ] add a callback example that uses ctypes-based callbacks, like in Cubature
+- [ ] consider sophisticating the events example by adding decorators such as @once
