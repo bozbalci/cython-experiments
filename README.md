@@ -6,6 +6,7 @@ Experimenting with Cython.
 * events: event system implemented in Cython, allows users to define Python event handlers triggered by C
 * callback: passes Python functions as parameters to C functions accepting function pointers, using a callback mechanism
 * ctypes (**WIP**): implements ctypes-based callbacks to pass Python functions as parameters to C functions
+* kwargs: passes keyword arguments to Python functions from C
 
 ## TO-DO:
 
